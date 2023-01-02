@@ -1,0 +1,19 @@
+[
+  {
+    "Project": "ToDoApp",
+    "Github": "https://github.com/HugoDMiranda/ToDoApp",
+    "img": "img/otherProjects/todo.png"
+  },
+
+  {
+    "Project": "Quotes",
+    "Github": "https://github.com/HugoDMiranda/QuotesApp",
+    "img": "img/otherProjects/quotes.png"
+  },
+
+  {
+    "Project": "Calculator",
+    "Github": "https://github.com/HugoDMiranda/CalculatorApp",
+    "img": "img/otherProjects/CalculatorApp.png"
+  }
+]

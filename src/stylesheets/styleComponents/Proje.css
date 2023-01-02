@@ -1,0 +1,52 @@
+.name-project {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.video-container {
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+
+.video-container:hover {
+  filter: grayscale(0);
+}
+
+.img-project {
+  color: white;
+  width: 1000px;
+}
+
+.tec-list2 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 20px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.tec-used {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.description {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+.description p {
+  min-height: 50px;
+}
+
+.project-tec {
+  border: 2px solid white;
+  width: 100px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}

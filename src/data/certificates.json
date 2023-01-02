@@ -1,0 +1,39 @@
+[
+  {
+    "certificate": "CSS certificate",
+    "img": "img/certificates/CSScourse.jpg",
+    "description": "Sololearn CSS certificate for the CSS course"
+  },
+
+  {
+    "certificate": "HTML certificate",
+    "img": "img/certificates/HTMLcourse.jpg",
+    "description": "Sololearn HTML certificate for the HTML course"
+  },
+  {
+    "certificate": "JavaScript certificate",
+    "img": "img/certificates/JScourse.png",
+    "description": "Sololearn JavaScript certificate for the JavaScript course"
+  },
+  {
+    "certificate": "React + Redux certificate",
+    "img": "img/certificates/REACTcourse.jpg",
+    "description": "Sololearn React+Redux certificate for the React+Redux course"
+  },
+
+  {
+    "certificate": "FrontEnd certificate",
+    "img": "img/certificates/FrontEnd-cer.png",
+    "description": "FreeCodeCamp FrontEnd  certificate for the FrontEnd  course"
+  },
+  {
+    "certificate": "Responsive web desing certificate",
+    "img": "img/certificates/Responsive-cer.png",
+    "description": "FreeCodeCamp Responsive web desing certificate for the Responsive web desing course"
+  },
+  {
+    "certificate": "JavaScript Algorithms and Data Structures certificate",
+    "img": "img/certificates/JS-cer.png",
+    "description": "FreeCodeCamp JavaScript Algorithms and Data Structures certificate  for the JavaScript Algorithms and Data Structures course"
+  }
+]

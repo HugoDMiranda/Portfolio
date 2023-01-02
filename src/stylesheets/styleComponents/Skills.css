@@ -1,0 +1,13 @@
+.tec-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.tec-list li {
+  margin: 8px;
+  color: white;
+}

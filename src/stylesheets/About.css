@@ -1,0 +1,101 @@
+.insideAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin: 10px 0px;
+}
+
+.myname {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.tecno {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 90%;
+  flex: 3;
+  flex-direction: column;
+}
+
+.p {
+  font-weight: 100;
+}
+
+.desktop {
+  max-width: 90%;
+  object-fit: cover;
+}
+
+.con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 80%;
+  height: 90%;
+}
+
+.hire-me {
+  margin: 15px 3px;
+  padding: 7px;
+  cursor: pointer;
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  transition: 0.5s;
+  font-weight: 700;
+  display: flex;
+}
+
+.hire-me:hover {
+  color: black;
+  opacity: 1;
+  background-color: white;
+}
+
+.me {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.me p {
+  text-align: justify;
+}
+
+.desktop-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex: 2;
+  min-width: 150px;
+}

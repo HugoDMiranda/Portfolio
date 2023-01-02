@@ -1,0 +1,32 @@
+[
+  {
+    "Project": "NoteApp",
+    "Github": "https://github.com/HugoDMiranda/TS-NOTES",
+    "Page": "http:/",
+    "Tecno": ["Typescript", "Css", "Html", "Git", "Github", "React", "Sass"],
+    "Description": "a simple application of notes, which has the name of these, the time in which it has to be done, to be able to mark it if it is important and to be able to delete it either if you finished it or you no longer have to do it"
+  },
+  {
+    "Project": "WeatherApp",
+    "Github": "https://github.com/HugoDMiranda/WeatherApp",
+    "Page": "http:/",
+    "Tecno": ["Javascript", "Css", "Html", "Git", "Github", "React"],
+    "Description": " a weather application, in which we use an api and show through this the search results of the place where you want to know the weather, additional other information such as wind speed among others"
+  },
+
+  {
+    "Project": "Pokedex",
+    "Github": "https://github.com/HugoDMiranda/PokedexApp",
+    "Page": "http:/",
+    "Tecno": [
+      "Javascript",
+      "Css",
+      "Html",
+      "Bootstrap",
+      "Git",
+      "Github",
+      "React"
+    ],
+    "Description": "a pokedex in which through an api data is obtained from the different pokemon in the game and shows different data both as pokemon in general and specific data of these"
+  }
+]

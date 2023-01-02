@@ -1,0 +1,10 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 95%;
+  min-height: 600px;
+  color: white;
+  margin: 20px 40px;
+  flex-direction: column;
+}
