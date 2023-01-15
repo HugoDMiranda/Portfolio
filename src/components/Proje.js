@@ -23,7 +23,7 @@ function Proje({ projectName, page, href, tecno, description }) {
       }
     >
       <h1 className="name-project">{projectName}</h1>
-      <a href={href} className="video-container" target="_blanck">
+      <a href={page} className="video-container" target="_blanck">
         <video
           src={
             projectName === "NoteApp"

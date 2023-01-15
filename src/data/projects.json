@@ -2,14 +2,14 @@
   {
     "Project": "NoteApp",
     "Github": "https://github.com/HugoDMiranda/TS-NOTES",
-    "Page": "http:/",
+    "Page": "https://hugodmiranda-todo-ts.vercel.app/",
     "Tecno": ["Typescript", "Css", "Html", "Git", "Github", "React", "Sass"],
     "Description": "a simple application of notes, which has the name of these, the time in which it has to be done, to be able to mark it if it is important and to be able to delete it either if you finished it or you no longer have to do it"
   },
   {
     "Project": "WeatherApp",
     "Github": "https://github.com/HugoDMiranda/WeatherApp",
-    "Page": "http:/",
+    "Page": "https://hugodmiranda-weather.vercel.app/",
     "Tecno": ["Javascript", "Css", "Html", "Git", "Github", "React"],
     "Description": " a weather application, in which we use an api and show through this the search results of the place where you want to know the weather, additional other information such as wind speed among others"
   },
@@ -17,7 +17,7 @@
   {
     "Project": "Pokedex",
     "Github": "https://github.com/HugoDMiranda/PokedexApp",
-    "Page": "http:/",
+    "Page": "https://hugodmiranda-pokedex.vercel.app/",
     "Tecno": [
       "Javascript",
       "Css",

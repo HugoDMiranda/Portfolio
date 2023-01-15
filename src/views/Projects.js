@@ -45,6 +45,7 @@ function Projects() {
                       key={otherProject.Project}
                       img={otherProject.img}
                       Github={otherProject.Github}
+                      Page={otherProject.Page}
                       projectName={otherProject.Project}
                     />
                   );

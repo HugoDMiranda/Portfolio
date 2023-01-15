@@ -2,18 +2,21 @@
   {
     "Project": "ToDoApp",
     "Github": "https://github.com/HugoDMiranda/ToDoApp",
+    "Page": "https://hugodmiranda-to-do.vercel.app/",
     "img": "img/otherProjects/todo.png"
   },
 
   {
     "Project": "Quotes",
     "Github": "https://github.com/HugoDMiranda/QuotesApp",
+    "Page": "https://hugodmiranda-quotes.vercel.app/",
     "img": "img/otherProjects/quotes.png"
   },
 
   {
     "Project": "Calculator",
     "Github": "https://github.com/HugoDMiranda/CalculatorApp",
+    "Page": "https://hugodmiranda-calculator.vercel.app/",
     "img": "img/otherProjects/CalculatorApp.png"
   }
 ]
