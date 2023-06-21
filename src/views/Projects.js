@@ -16,8 +16,8 @@ function Projects() {
     >
       {ProjectsData ? (
         <div
-          id="carouselExampleControls"
-          className="carousel slide"
+          id="carouselExampleIndicators"
+          className="carousel carousel-fade"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner img-project-container">
@@ -34,7 +34,33 @@ function Projects() {
                   />
                 );
               })}
+            <div className="carousel-indicators">
+              <button
+                className="indicator-button"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                className="indicator-button"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                className="indicator-button"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
           </div>
+
           <div className="container-other">
             <h3>Other Projects</h3>
             <div className="otherProjects">
@@ -50,42 +76,16 @@ function Projects() {
                     />
                   );
                 })}
+              <a
+                className="repository"
+                href="https://github.com/HugoDMiranda"
+                target="_blanck"
+              >
+                <DiGithubBadge size="200px" className="icon-repository" />
+                <h4>My repository</h4>
+              </a>
             </div>
           </div>
-          <div className="container-repository">
-            <h3>My repository</h3>
-            <a
-              className="repository"
-              href="https://github.com/HugoDMiranda"
-              target="_blanck"
-            >
-              <DiGithubBadge size="55px" className="icon-repository" />
-            </a>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
       ) : null}
     </motion.div>

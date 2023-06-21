@@ -19,7 +19,7 @@ function Footer() {
           className="social-icon"
           target="blank"
         >
-          <AiFillLinkedin size="20px" />
+          <AiFillLinkedin size="30px" />
         </a>
       </div>
       <div className="footer-menu-container">

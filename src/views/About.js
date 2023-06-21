@@ -1,7 +1,6 @@
 import "../stylesheets/About.css";
 import { motion } from "framer-motion";
 import desktop from "../img/desktop.png";
-import { Link } from "react-router-dom";
 import Skills from "../components/Skills";
 
 export default function About() {
@@ -28,9 +27,13 @@ export default function About() {
             </p>
             <p>I will love to hear from you,feel free to contact me.</p>
           </div>
-          <Link className="hire-me" to="/contact">
-            Hire me
-          </Link>
+          <a
+            download="CV-Hugo-Miranda"
+            className="hire-me"
+            href="CV_Hugo_David_Miranda_Betancourt.pdf"
+          >
+            My CV here
+          </a>
         </div>
         <div className="desktop-container">
           <img src={desktop} alt="desktop" className="desktop" />

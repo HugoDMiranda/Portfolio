@@ -1,3 +1,24 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0;
+}
+
+.carousel-indicators {
+  align-items: center;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+  margin-top: 20px;
+  padding: 1px 15px;
+}
+
+.carousel-indicators .active {
+  padding: 3px 15px;
+}
+
 .projects-container {
   display: flex;
   align-items: center;
@@ -7,19 +28,24 @@
 }
 
 .img-project-container {
-  min-height: 550px;
-  max-width: 1000px;
+  overflow: visible;
+  min-height: 650px;
+  max-width: 80%;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .carousel-item {
-  color: white;
-}
-
-.carousel button {
-  bottom: 900px;
+  color: black;
 }
 
 /* OtherProjects */
+
+.container-other {
+  width: 99vw;
+  margin-bottom: 150px;
+}
 
 .container-other h3 {
   color: white;
@@ -27,72 +53,53 @@
   margin-top: 100px;
 }
 
-.container-repository {
+.repository {
+  color: gray;
+  transition: 0.5s;
+  min-width: 25%;
+  min-height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  background-color: white;
+  text-decoration: none;
 }
 
-.container-repository h3 {
-  color: white;
-  text-align: center;
-  margin: 0;
-  margin-top: 100px;
-  padding: 0;
-}
-
-.repository {
-  color: gray;
-  transition: 0.5s;
-}
-
-.repository :hover {
-  color: white;
-  transition: 0.5s;
-}
-
-.icon-repository {
-  height: 200px;
-  width: 200px;
-  color: grey;
-  transition: 0.5s;
-}
-
-.icon-repository :hover {
-  color: white;
+.repository h4 {
+  margin: 0px;
 }
 
 .otherProjects {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 20px;
   color: white;
   width: 100%;
   flex-wrap: wrap;
 }
 
-@media (max-width: 700px) {
-  .carousel button {
-    bottom: 1150px;
+/* GITHUB ICON */
+@media (max-width: 1100px) {
+  .repository {
+    min-width: 33%;
   }
 }
 
-@media (max-width: 560px) {
-  .carousel button {
-    bottom: 1350px;
+@media (max-width: 850px) {
+  .repository {
+    min-width: 50%;
   }
 }
 
-@media (max-width: 440px) {
-  .carousel button {
-    bottom: 1450px;
+@media (max-width: 600px) {
+  .repository {
+    min-width: 100%;
   }
-  .description p {
-    min-height: 140px;
-  }
-  .tec-list2 {
-    min-height: 240px;
+
+  .img-project-container {
+    max-width: 95%;
   }
 }

@@ -1,11 +1,43 @@
+.proje-content {
+  display: flex;
+}
+
+.proje-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* .carousel-item {
+  animation: fade 0.5s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateX(0px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+} */
+
 .name-project {
   text-align: center;
   margin-bottom: 10px;
 }
 
 .video-container {
+  position: relative;
+  margin-top: 30px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  flex: 2;
   filter: grayscale(1);
   transition: 0.5s;
+  border-radius: 10px;
 }
 
 .video-container:hover {
@@ -15,10 +47,14 @@
 .img-project {
   color: white;
   width: 1000px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 30px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 30px -12px rgba(0, 0, 0, 0.75);
 }
 
 .tec-list2 {
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -34,9 +70,11 @@
 }
 
 .description {
-  background-color: white;
+  /* background-color: white; */
+  text-align: justify;
   color: black;
   padding: 5px;
+  margin-bottom: 50px;
 }
 
 .description p {
@@ -44,9 +82,39 @@
 }
 
 .project-tec {
-  border: 2px solid white;
+  border: 2px solid black;
   width: 100px;
   text-align: center;
   margin: 5px;
   padding: 5px;
+}
+
+@media (max-width: 1000px) {
+  .proje-content {
+    flex-direction: column;
+  }
+
+  .video-container {
+    right: 0;
+  }
+
+  .img-project {
+    box-shadow: 1px 10px 30px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 10px 30px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 10px 30px -12px rgba(0, 0, 0, 0.75);
+  }
+
+  .proje-text {
+    margin: 20px;
+  }
+
+  .description h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .project-tec {
+    width: 80px;
+  }
 }

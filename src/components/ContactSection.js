@@ -48,7 +48,7 @@ function ContactSection() {
           />
           <Contactinfo
             icon={<AiFillPhone size="100px" />}
-            contacttext="312 7989399"
+            contacttext="+57 312 7989399"
           />
           <Contactinfo
             icon={<AiOutlineMail size="100px" />}
