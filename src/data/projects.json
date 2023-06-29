@@ -1,32 +1,73 @@
 [
   {
-    "Project": "NoteApp",
-    "Github": "https://github.com/HugoDMiranda/TS-NOTES",
-    "Page": "https://hugodmiranda-todo-ts.vercel.app/",
-    "Tecno": ["Typescript", "Css", "Html", "Git", "Github", "React", "Sass"],
-    "Description": "a simple application of notes, which has the name of these, the time in which it has to be done, to be able to mark it if it is important and to be able to delete it either if you finished it or you no longer have to do it"
-  },
-  {
-    "Project": "WeatherApp",
-    "Github": "https://github.com/HugoDMiranda/WeatherApp",
-    "Page": "https://hugodmiranda-weather.vercel.app/",
-    "Tecno": ["Javascript", "Css", "Html", "Git", "Github", "React"],
-    "Description": " a weather application, in which we use an api and show through this the search results of the place where you want to know the weather, additional other information such as wind speed among others"
-  },
-
-  {
-    "Project": "Pokedex",
-    "Github": "https://github.com/HugoDMiranda/PokedexApp",
-    "Page": "https://hugodmiranda-pokedex.vercel.app/",
+    "Project": "Anime Reviews",
+    "Github": "https://github.com/HugoDMiranda/AnimeReviews",
+    "Page": "https://animereviews.vercel.app",
     "Tecno": [
       "Javascript",
       "Css",
       "Html",
-      "Bootstrap",
       "Git",
       "Github",
-      "React"
+      "React",
+      "Sass",
+      "Node.js",
+      "MySql",
+      "Bootstrap"
     ],
-    "Description": "a pokedex in which through an api data is obtained from the different pokemon in the game and shows different data both as pokemon in general and specific data of these"
+    "Description": "A review application for animes, which has different technologies for its management, it has a database (MySql) for the management of data from different users, their comments and the different animes that can be reviewed. review, which is controlled through Node.js and everything related to the different routes of the back; The user authentication manager is handled with the JWT library, it has several special functions in case the user will be admin; The application presents several routes, in which there is the registration and log-in page respectively, a page in which the catalog of animes that can be given reviews and their ratings and summaries of it are shown and in which you can filter to find a specific one, and finally there is the page of the anime in question in which you can see more features about it and here you can give your review and also see the different reviews that different users have left.",
+    "Imgs": [
+      "img/mainProjects/animeReviews/animeReviews1.png",
+      "img/mainProjects/animeReviews/animeReviews2.png",
+      "img/mainProjects/animeReviews/animeReviews3.png",
+      "img/mainProjects/animeReviews/animeReviews4.png",
+      "img/mainProjects/animeReviews/animeReviews5.png",
+      "img/mainProjects/animeReviews/animeReviews6.png"
+    ]
+  },
+  {
+    "Project": "Check-in App",
+    "Github": "https://github.com/HugoDMiranda/Check-in",
+    "Page": "https://check-in-swart.vercel.app",
+    "Tecno": [
+      "Javascript",
+      "Css",
+      "Html",
+      "Git",
+      "Github",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Sass"
+    ],
+    "Description": "A check-in application that has a screen that contains two buttons at the beginning, one that allows displaying a modal to consult the reservation which by the full name of the user, when entering the full name of the user must show, seat number , passenger name, identification, and selected meal option, flight date and boarding gate, In the second button, a form should be displayed that allows entering the full name of the passenger, email, telephone, choosing the seat number, menu on board. When saving the user is registered in a database (MongoDB) and the chair is registered so it disappears from the check-in form;It has an additional screen that allows boarding to be validated where the passenger id is received through a service, a boarding field must be updated in the database to true and the updated value must be displayed in the form, at the moment to consume the service",
+    "Imgs": [
+      "img/mainProjects/check-in/check-in1.png",
+      "img/mainProjects/check-in/check-in2.png",
+      "img/mainProjects/check-in/check-in3.png"
+    ]
+  },
+
+  {
+    "Project": "Mercado Clon",
+    "Github": "https://github.com/HugoDMiranda/MercadoClon",
+    "Page": "https://mercadoclonapp.vercel.app",
+    "Tecno": [
+      "Javascript",
+      "Css",
+      "Html",
+      "Git",
+      "Github",
+      "React",
+      "Sass",
+      "Node.js"
+    ],
+    "Description": "A Mercado Libre clone application, which has the utility of its api and manages through Node.js, managed by several routes, in which depending on the result of the search it makes a call to the api, presents different routes either for the search of an object in general and will show all the possible results related to this search; another route for a specific object in which the different characteristics of the particular object will be displayed and another in case the searched object is not found.",
+    "Imgs": [
+      "img/mainProjects/mercadoClon/mercadoClon1.png",
+      "img/mainProjects/mercadoClon/mercadoClon2.png",
+      "img/mainProjects/mercadoClon/mercadoClon3.png",
+      "img/mainProjects/mercadoClon/mercadoClon4.png"
+    ]
   }
 ]

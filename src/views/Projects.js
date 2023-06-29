@@ -31,6 +31,7 @@ function Projects() {
                     page={projectdata.Page}
                     tecno={projectdata.Tecno}
                     description={projectdata.Description}
+                    images={projectdata.Imgs}
                   />
                 );
               })}
