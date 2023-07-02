@@ -83,7 +83,7 @@ function Projects() {
                 target="_blanck"
               >
                 <DiGithubBadge size="200px" className="icon-repository" />
-                <h4>My repository</h4>
+                My repository
               </a>
             </div>
           </div>

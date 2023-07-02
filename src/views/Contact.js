@@ -10,7 +10,7 @@ function Contact() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.1 } }}
     >
-      <h1>CONTACT ME</h1>
+      <h2>CONTACT ME</h2>
       <ContactSection />
     </motion.div>
   );

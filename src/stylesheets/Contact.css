@@ -8,3 +8,7 @@
   margin: 20px 40px;
   flex-direction: column;
 }
+
+.contact-container h2 {
+  color: white;
+}

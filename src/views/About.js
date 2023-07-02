@@ -11,7 +11,7 @@ export default function About() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.1 } }}
     >
-      <div className="con">
+      <main className="con">
         <div className="about">
           <div className="name">
             <h1 className="myname">I am Hugo D. Miranda Betancourt</h1>
@@ -38,7 +38,7 @@ export default function About() {
         <div className="desktop-container">
           <img src={desktop} alt="desktop" className="desktop" />
         </div>
-      </div>
+      </main>
       <div className="tecno">
         <h2>Skills</h2>
         <Skills />

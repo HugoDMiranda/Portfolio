@@ -13,6 +13,12 @@ h6 {
   font-family: "Satoshi", sans-serif;
 }
 
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
 body {
   background-image: url("./img/polygon.jpg");
   background-position: center;

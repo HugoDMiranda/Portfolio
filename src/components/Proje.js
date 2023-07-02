@@ -14,14 +14,14 @@ function Proje({ projectName, page, href, tecno, description, images }) {
       <div className="proje-content">
         <a href={page} className="video-container" target="_blanck">
           <div
-            class="uk-position-relative uk-visible-toggle uk-light slider"
+            className="uk-position-relative uk-visible-toggle uk-light slider"
             tabindex="-1"
             uk-slider="center: true; autoplay: true; autoplay-interval: 2000;"
           >
-            <ul class="uk-slider-items ">
+            <ul className="uk-slider-items img-container">
               {images.map((img) => (
-                <li>
-                  <img src={img} alt="" />
+                <li className="img-list" key={img}>
+                  <img className="img-project" src={img} alt={projectName} />
                 </li>
               ))}
             </ul>

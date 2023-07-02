@@ -18,5 +18,29 @@
     "Github": "https://github.com/HugoDMiranda/CalculatorApp",
     "Page": "https://hugodmiranda-calculator.vercel.app/",
     "img": "img/otherProjects/CalculatorApp.png"
+  },
+  {
+    "Project": "Pokedex",
+    "Github": "https://github.com/HugoDMiranda/PokedexApp",
+    "Page": "https://hugodmiranda-pokedex.vercel.app/",
+    "img": "img/otherProjects/Pokedex.png"
+  },
+  {
+    "Project": "Weather",
+    "Github": "https://github.com/HugoDMiranda/WeatherApp",
+    "Page": "https://hugodmiranda-weather.vercel.app/",
+    "img": "img/otherProjects/weather.png"
+  },
+  {
+    "Project": "Typescript-todo",
+    "Github": "https://github.com/HugoDMiranda/TS-NOTES",
+    "Page": "https://hugodmiranda-todo-ts.vercel.app/",
+    "img": "img/otherProjects/Typescript-todo.png"
+  },
+  {
+    "Project": "Memory-game",
+    "Github": "https://github.com/HugoDMiranda/memory-game",
+    "Page": "https://hugodmiranda-memory-game.vercel.app/",
+    "img": "img/otherProjects/memory-game.png"
   }
 ]

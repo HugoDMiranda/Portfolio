@@ -13,9 +13,14 @@
   margin: 10px 0px;
 }
 
+.name h2 {
+  color: white;
+}
+
 .myname {
   font-weight: 700;
   font-size: 50px;
+  color: white;
 }
 
 .tecno {
@@ -26,6 +31,10 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.tecno h2 {
+  color: white;
 }
 
 .about {

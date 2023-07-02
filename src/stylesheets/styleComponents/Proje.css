@@ -1,5 +1,7 @@
 .proje-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .proje-text {
@@ -21,17 +23,25 @@
   margin-top: 30px;
   right: 50px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   flex: 2;
+  border-radius: 10px;
+  -webkit-box-shadow: 21px 24px 40px -25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 21px 24px 40px -25px rgba(0, 0, 0, 0.75);
+  box-shadow: 21px 24px 40px -25px rgba(0, 0, 0, 0.75);
+}
+
+.img-container {
+  border-radius: 10px;
+}
+
+.img-list {
   border-radius: 10px;
 }
 
 .img-project {
-  color: white;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 30px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 30px -12px rgba(0, 0, 0, 0.75);
 }
 
 .tec-list2 {
@@ -86,10 +96,10 @@
     right: 0;
   }
 
-  .img-project {
-    box-shadow: 1px 10px 30px -12px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 10px 30px -12px rgba(0, 0, 0, 0.75);
-    box-shadow: 1px 10px 30px -12px rgba(0, 0, 0, 0.75);
+  .video-container {
+    -webkit-box-shadow: -2px 21px 40px -25px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 21px 40px -25px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 21px 40px -25px rgba(0, 0, 0, 0.75);
   }
 
   .proje-text {
