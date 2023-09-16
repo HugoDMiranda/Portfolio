@@ -35,5 +35,15 @@
     "certificate": "JavaScript Algorithms and Data Structures certificate",
     "img": "img/certificates/JS-cer.png",
     "description": "FreeCodeCamp JavaScript Algorithms and Data Structures certificate  for the JavaScript Algorithms and Data Structures course"
+  },
+  {
+    "certificate": "Scientific Computing with Python",
+    "img": "img/certificates/Python.png",
+    "description": "FreeCodeCamp Scientific Computing with Python certificate  for the Scientific Computing with Python course"
+  },
+  {
+    "certificate": "Machine Learning with Python",
+    "img": "img/certificates/MachineLearning.png",
+    "description": "FreeCodeCamp Machine Learning with Python certificate  for the Machine Learning with Python course"
   }
 ]
