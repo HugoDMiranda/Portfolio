@@ -1,6 +1,12 @@
 import React from "react";
 import "../stylesheets/styleComponents/Skills.css";
-import { DiGithubBadge, DiCss3, DiReact, DiMongodb } from "react-icons/di";
+import {
+  DiGithubBadge,
+  DiCss3,
+  DiReact,
+  DiMongodb,
+  DiPython,
+} from "react-icons/di";
 import { AiFillHtml5 } from "react-icons/ai";
 import { SiJavascript, SiSass, SiTypescript, SiMysql } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
@@ -26,6 +32,9 @@ function Skills() {
       </li>
       <li>
         <IoLogoNodejs size="55px" className="icons" />
+      </li>
+      <li>
+        <DiPython size="55px" className="icons" />
       </li>
       <li>
         <DiGithubBadge size="55px" className="icons" />
