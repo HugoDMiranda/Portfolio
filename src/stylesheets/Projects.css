@@ -10,7 +10,7 @@
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: black;
+  background-color: rgb(255, 0, 191);
   margin-top: 20px;
   padding: 1px 15px;
 }
@@ -33,7 +33,7 @@
   max-width: 80%;
   display: flex;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .carousel-item {

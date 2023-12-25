@@ -4,3 +4,7 @@
   max-width: 600px;
   margin: 15px;
 }
+
+.card-title {
+  color: rgb(255, 0, 191);
+}

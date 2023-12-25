@@ -72,23 +72,24 @@
   margin: 15px 3px;
   padding: 7px;
   cursor: pointer;
-  opacity: 0.8;
   color: white;
   text-decoration: none;
   border: 2px solid white;
   transition: 0.5s;
   font-weight: 700;
   display: flex;
+  border-radius: 20px;
 }
 
 .hire-me:hover {
-  color: black;
+  color: rgb(255, 0, 191);
   opacity: 1;
   background-color: white;
 }
 
 .me {
   background-color: white;
+  border-radius: 20px;
   color: black;
   padding: 10px;
   max-width: 100%;
@@ -98,6 +99,10 @@
 
 .me p {
   text-align: justify;
+}
+.me h3,
+.me p strong {
+  color: rgb(255, 0, 191);
 }
 
 .desktop-container {
