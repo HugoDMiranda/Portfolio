@@ -66,7 +66,7 @@
       "Sass",
       "Node.js"
     ],
-    "Description": "A Mercado Libre clone application, which has the utility of its api and manages through Node.js, managed by several routes, in which depending on the result of the search it makes a call to the api, presents different routes either for the search of an object in general and will show all the possible results related to this search; another route for a specific object in which the different characteristics of the particular object will be displayed and another in case the searched object is not found.",
+    "Description": "A Mercado Libre clone application, which has the utility of its api and manages through Node.js, managed by several routes, in which depending on the result of the search it makes a call to the api, presents different routes either for the search of an object in general and will show all the possible results related to this search; another route for a specific object in which the different characteristics of the particular object will be displayed in which you will be able to add it to the shopping cart or put it in saved and and another in case the searched object is not found.It also has the function to store the objects in the cart, which can be displayed in its own path where it shows all the objects that are present, their individual prices and if they are more than one shows the total, and finally shows the sum of all objects in the cart and the price of shipping, but you want something also has the option to remove from the shopping cart. ",
     "Imgs": [
       "img/mainProjects/mercadoClon/mercadoClon1.png",
       "img/mainProjects/mercadoClon/mercadoClon2.png",
