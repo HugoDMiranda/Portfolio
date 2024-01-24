@@ -20,7 +20,11 @@
     "img": "img/certificates/REACTcourse.jpg",
     "description": "Sololearn React+Redux certificate for the React+Redux course"
   },
-
+  {
+    "certificate": "Introduction to Python certificate",
+    "img": "img/certificates/IntroductionPython.jpg",
+    "description": "Sololearn Python certificate for the Introduction to Python course"
+  },
   {
     "certificate": "FrontEnd certificate",
     "img": "img/certificates/FrontEnd-cer.png",
