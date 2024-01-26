@@ -10,7 +10,7 @@ function Proje({ projectName, page, href, tecno, description, images }) {
       }
       data-bs-interval="10000"
     >
-      <h1 className="name-project">{projectName}</h1>
+      <h2 className="name-project">{projectName}</h2>
       <div className="proje-content">
         <a href={page} className="video-container" target="_blanck">
           <div

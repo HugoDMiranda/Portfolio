@@ -15,7 +15,7 @@ function Projects() {
       exit={{ opacity: 0, transition: { duration: 0.1 } }}
     >
       {ProjectsData ? (
-        <div
+        <section
           id="carouselExampleIndicators"
           className="carousel carousel-fade"
           data-bs-ride="carousel"
@@ -87,7 +87,7 @@ function Projects() {
               </a>
             </div>
           </div>
-        </div>
+        </section>
       ) : null}
     </motion.div>
   );
