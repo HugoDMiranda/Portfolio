@@ -68,6 +68,10 @@
   font-size: 25px;
 }
 
+.repository:hover {
+  color: rgb(255, 0, 191);
+}
+
 .otherProjects {
   display: flex;
   align-items: center;

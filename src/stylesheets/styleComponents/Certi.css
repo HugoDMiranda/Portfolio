@@ -4,6 +4,8 @@
   max-width: 600px;
   /* max-height: 700px; */
   margin: 15px;
+  margin-bottom: 40px;
+  border-radius: 10px;
 }
 
 .card-title {
