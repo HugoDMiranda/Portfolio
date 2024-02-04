@@ -2,6 +2,7 @@ import "../stylesheets/Certificates.css";
 import Certi from "../components/Certi.js";
 import { motion } from "framer-motion";
 import certificatesData from "../data/certificates.json";
+import { Suspense } from "react";
 
 function Certificates() {
   return (
@@ -14,13 +15,15 @@ function Certificates() {
       {certificatesData
         ? certificatesData.map((certificateData) => {
             return (
-              <Certi
-                key={certificateData.certificate}
-                img={certificateData.img}
-                certificate={certificateData.certificate}
-                link={certificateData.link}
-                description={certificateData.description}
-              />
+              <Suspense fallback={<p>Loading...</p>}>
+                <Certi
+                  key={certificateData.certificate}
+                  img={certificateData.img}
+                  certificate={certificateData.certificate}
+                  link={certificateData.link}
+                  description={certificateData.description}
+                />
+              </Suspense>
             );
           })
         : null}
