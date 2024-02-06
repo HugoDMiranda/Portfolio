@@ -5,6 +5,7 @@ import ProjectsData from "../data/projects.json";
 import otherProjects from "../data/otherProjects.json";
 import OtherProject from "../components/OtherProject.js";
 import { DiGithubBadge } from "react-icons/di";
+import { Suspense } from "react";
 
 function Projects() {
   return (
@@ -24,15 +25,17 @@ function Projects() {
             {ProjectsData &&
               ProjectsData.map((projectdata) => {
                 return (
-                  <Proje
-                    key={projectdata.Project}
-                    projectName={projectdata.Project}
-                    href={projectdata.Github}
-                    page={projectdata.Page}
-                    tecno={projectdata.Tecno}
-                    description={projectdata.Description}
-                    images={projectdata.Imgs}
-                  />
+                  <Suspense fallback={<p>Loading...</p>}>
+                    <Proje
+                      key={projectdata.Project}
+                      projectName={projectdata.Project}
+                      href={projectdata.Github}
+                      page={projectdata.Page}
+                      tecno={projectdata.Tecno}
+                      description={projectdata.Description}
+                      images={projectdata.Imgs}
+                    />
+                  </Suspense>
                 );
               })}
             <div className="carousel-indicators">
