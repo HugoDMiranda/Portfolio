@@ -71,13 +71,15 @@ function Projects() {
               {otherProjects &&
                 otherProjects.map((otherProject) => {
                   return (
-                    <OtherProject
-                      key={otherProject.Project}
-                      img={otherProject.img}
-                      Github={otherProject.Github}
-                      Page={otherProject.Page}
-                      projectName={otherProject.Project}
-                    />
+                    <Suspense fallback={<p>Loading...</p>}>
+                      <OtherProject
+                        key={otherProject.Project}
+                        img={otherProject.img}
+                        Github={otherProject.Github}
+                        Page={otherProject.Page}
+                        projectName={otherProject.Project}
+                      />
+                    </Suspense>
                   );
                 })}
               <a
