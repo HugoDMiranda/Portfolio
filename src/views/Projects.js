@@ -25,17 +25,15 @@ function Projects() {
             {ProjectsData &&
               ProjectsData.map((projectdata) => {
                 return (
-                  <Suspense fallback={<p>Loading...</p>}>
-                    <Proje
-                      key={projectdata.Project}
-                      projectName={projectdata.Project}
-                      href={projectdata.Github}
-                      page={projectdata.Page}
-                      tecno={projectdata.Tecno}
-                      description={projectdata.Description}
-                      images={projectdata.Imgs}
-                    />
-                  </Suspense>
+                  <Proje
+                    key={projectdata.Project}
+                    projectName={projectdata.Project}
+                    href={projectdata.Github}
+                    page={projectdata.Page}
+                    tecno={projectdata.Tecno}
+                    description={projectdata.Description}
+                    images={projectdata.Imgs}
+                  />
                 );
               })}
             <div className="carousel-indicators">
@@ -71,15 +69,13 @@ function Projects() {
               {otherProjects &&
                 otherProjects.map((otherProject) => {
                   return (
-                    <Suspense fallback={<p>Loading...</p>}>
-                      <OtherProject
-                        key={otherProject.Project}
-                        img={otherProject.img}
-                        Github={otherProject.Github}
-                        Page={otherProject.Page}
-                        projectName={otherProject.Project}
-                      />
-                    </Suspense>
+                    <OtherProject
+                      key={otherProject.Project}
+                      img={otherProject.img}
+                      Github={otherProject.Github}
+                      Page={otherProject.Page}
+                      projectName={otherProject.Project}
+                    />
                   );
                 })}
               <a
