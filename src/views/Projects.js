@@ -5,7 +5,6 @@ import ProjectsData from "../data/projects.json";
 import otherProjects from "../data/otherProjects.json";
 import OtherProject from "../components/OtherProject.js";
 import { DiGithubBadge } from "react-icons/di";
-import { Suspense } from "react";
 
 function Projects() {
   return (

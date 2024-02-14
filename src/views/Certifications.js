@@ -15,15 +15,13 @@ function Certificates() {
       {certificatesData
         ? certificatesData.map((certificateData) => {
             return (
-              <Suspense fallback={<p>Loading...</p>}>
-                <Certi
-                  key={certificateData.certificate}
-                  img={certificateData.img}
-                  certificate={certificateData.certificate}
-                  link={certificateData.link}
-                  description={certificateData.description}
-                />
-              </Suspense>
+              <Certi
+                key={certificateData.certificate}
+                img={certificateData.img}
+                certificate={certificateData.certificate}
+                link={certificateData.link}
+                description={certificateData.description}
+              />
             );
           })
         : null}
