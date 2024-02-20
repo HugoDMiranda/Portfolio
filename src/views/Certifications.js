@@ -2,7 +2,6 @@ import "../stylesheets/Certificates.css";
 import Certi from "../components/Certi.js";
 import { motion } from "framer-motion";
 import certificatesData from "../data/certificates.json";
-import { Suspense } from "react";
 
 function Certificates() {
   return (

@@ -31,6 +31,11 @@
     "description": "Sololearn Python certificate for the Python Intermediate course"
   },
   {
+    "certificate": "Python Developer certificate",
+    "img": "img/certificates/PythonDeveloper.jpg",
+    "description": "Sololearn Python certificate for the Python Developer course"
+  },
+  {
     "certificate": "FrontEnd certificate",
     "img": "img/certificates/FrontEnd-cer.png",
     "description": "FreeCodeCamp FrontEnd  certificate for the FrontEnd  course"
