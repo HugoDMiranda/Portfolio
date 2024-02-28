@@ -4,7 +4,7 @@
 
 .nav-link {
   font-size: 20px;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 0, 191);
   border-radius: 30px;
   margin: 11px 5px;
   text-align: center;
@@ -16,16 +16,10 @@
   display: flex;
 }
 
-/* .nav-link:focus {
+.nav-link:hover {
   opacity: 1;
   color: rgb(255, 0, 191);
-  border: 2px solid rgb(255, 0, 191);
-} */
-
-.nav-link:hover {
-  opacity: 0.9;
-  color: rgb(255, 0, 191);
-  border: 2px solid rgb(255, 0, 191);
+  border: 2px solid white;
 }
 
 .nav-link button {
@@ -33,4 +27,6 @@
   border-radius: 20px;
   background-color: transparent;
   width: 100%;
+  color: rgb(255, 0, 191);
+  font-weight: 500;
 }
